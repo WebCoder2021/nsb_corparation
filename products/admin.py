@@ -1,3 +1,22 @@
 from django.contrib import admin
-
+from .models import *
 # Register your models here.
+admin.site.register(Brand)
+admin.site.register(CompModel)
+admin.site.register(CPUBrand)
+admin.site.register(CPU)
+admin.site.register(GPUBrand)
+admin.site.register(GPU)
+admin.site.register(Screen)
+admin.site.register(DDRType)
+admin.site.register(DDR)
+admin.site.register(MemoryType)
+admin.site.register(Memory)
+admin.site.register(Connection)
+admin.site.register(Keyboard)
+admin.site.register(Corpus)
+admin.site.register(Color)
+admin.site.register(Camera)
+admin.site.register(Port)
+admin.site.register(Computer)
+admin.site.register(CompImages)
